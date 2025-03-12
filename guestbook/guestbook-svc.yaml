@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: guestbook-ui
 spec:
+  type: Loadbalancer
   ports:
   - port: 80
     targetPort: 80
